@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+   
+}
+
+#main{
+    width: 100%;
+    min-height: 100%;
+    background-color: #000000;
+    overflow: hidden;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60vw;
+    margin: 45px 19% 0;
+    position: relative;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    color: #ffffff;
+}
+
+nav ul li  {
+    
+    list-style: none;
+    display: inline;
+    margin: 0 40px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 29px;
+    cursor: pointer;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.2s ease-in;
+}
+nav ul li a:hover{
+    text-decoration: none;
+    color: #e53726;
+}
+
+section{
+   
+}
+
+.video  {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+.video h1{
+    color: #ffffff;
+    top: 45vh;
+    left: 42%;
+    position: absolute;
+    z-index: 2;
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 500;
+    font-family: 'Space Grotesk', sans-serif;
+    -webkit-text-stroke: #000000 1px;
+   
+}
+video{
+    top: 22vh;
+    position: relative;
+    width: 100vw;
+    height: 50%;
+    object-fit: cover;
+}
+form {
+    width: 100vw;
+    min-height: 80vh;
+   
+}
+.form{
+    width: 50% ;
+    height: 120%;
+    margin-left: 10vw;
+    position: relative;
+  
+ 
+  
+ 
+}
+.ftop{
+    display: flex;
+}
+
+.form form input{
+    
+   margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    width: 20vw;
+    position: relative;
+    left: -10vw;
+    
+}
+.form form input:hover{
+   box-shadow: 0px 1px #ffffff;
+    
+    
+}
+
+
+.form form .line{
+    position: relative;
+    left: -5vw; 
+}
+.form form  label{
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 400;
+    font-family: 'Space Grotesk', sans-serif;
+
+    
+   
+}
+
+button{
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+    font-family: 'Space Grotesk', sans-serif;
+    position: absolute;
+    background-color: transparent;
+    width: 7vw;
+    height: 3vw;
+    border: 1px solid #ffffff;
+    border-radius: 50px;
+    bottom: 5vw;
+    transition: 0.2s ease;
+}
+button:hover{
+    color: #000000;
+    background-color: #ffffff;
+}
